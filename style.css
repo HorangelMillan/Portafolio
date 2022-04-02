@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+@font-face {
+    font-family: "Poppins-regular";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-semibold";
+    src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+/* Cabecera */
+header {
+    background-color: #197F5B;
+    height: 60vh;
+}
+
+h1, h2 {
+    font-family: "Poppins-semibold";
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+/* Barra de Navegación */
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+}
+
+li {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+li:last-child {
+    margin-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins-regular";
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #EF9919;
+}
+
+/* forma poligonal */
+.polig-box {
+    border-top: 15rem solid #197F5B;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+}
+
+/* Diseño de cajas bordeadas */
+.design-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-box > div:nth-child(1) {
+    position: relative;
+    z-index: 1;
+}
+
+.design-box > div:nth-child(2) {
+    position: absolute;
+    top: 6rem
+}
+
+.box-border {
+    border: 1px solid #f9f5f26e;
+}
+
+.box-border:nth-child(1) {
+    height: 30rem;
+    width: 22rem;
+    border-radius: 15%;
+}
+
