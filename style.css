@@ -317,7 +317,7 @@ section p {
     margin-bottom: 1rem;
 }
 
-section>button {
+section>a>button {
     margin-top: 1rem;
     height: auto;
     width: 15rem;
