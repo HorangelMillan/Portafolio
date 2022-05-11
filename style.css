@@ -190,23 +190,26 @@ nav label, #check {
     position: absolute;
 }
 
-.box-border2>img {
-    background-color: #FFFFFF;
-    height: 40px;
-    border-radius: 90%;
+.box-border2 > a {
     position: relative;
 }
 
-.box-border2>img:first-child {
+.box-border2>a>img {
+    background-color: #FFFFFF;
+    height: 40px;
+    border-radius: 90%;
+}
+
+.box-border2>a:first-child {
     right: 5rem;
     top: 15rem
 }
 
-.box-border2>img:nth-child(2) {
+.box-border2>a:nth-child(2) {
     top: 18.2rem;
 }
 
-.box-border2>img:nth-child(3) {
+.box-border2>a:nth-child(3) {
     left: 5rem;
     top: 15rem;
 }
