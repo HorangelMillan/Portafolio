@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint", // Recomendación de ESLint
+        "esbenp.prettier-vscode", // Recomendación de Prettier
+        "eamodio.gitlens", // Recomendación de GitLens
+        "ritwickdey.LiveServer"
+    ],
+    "unwantedRecommendations": []
+}

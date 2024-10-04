@@ -202,7 +202,7 @@ nav label,
     border-radius: 90%;
 }
 
-.box-border2 #githubTemp {
+.box-border2 #githubTemp, .box-border2 #codewarsTemp {
     background: #197F5B;
     height: 40px;
     border-radius: 90%;
